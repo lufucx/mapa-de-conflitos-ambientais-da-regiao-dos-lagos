@@ -189,9 +189,6 @@ $('.zoom-to-layer').click(function () { map.setView([-22.87976527566221, -42.139
 // Print map
 L.control.browserPrint({ position: 'topright' }).addTo(map);
 
-// Search function
-L.Control.geocoder().addTo(map);
-
 // Button to resize map
 let resizeButton = L.Control.extend({
     onAdd: function () {

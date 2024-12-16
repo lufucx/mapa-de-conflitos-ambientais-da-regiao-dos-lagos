@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('macacoprego/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('api/', include('markers.api')),
     path('', include('markers.urls')),
     path('posts/', include('posts.urls')),
