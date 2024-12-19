@@ -24,8 +24,8 @@ This project is a Django-based web application that leverages GeoDjango to handl
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/lufucx/mapa-de-conflitos-ambientais-da-regiao-dos-lagos.git
+cd mapa-de-conflitos-ambientais-da-regiao-dos-lagos
 ```
 
 ### Step 2: Set up the virtual environment
